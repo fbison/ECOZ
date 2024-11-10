@@ -1,27 +1,41 @@
 import { lazy } from "react";
-import IntroContent from "../../content/IntroContent.json";
-import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import AboutContent from "../../content/AboutContent.json";
-import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
-import ContactContent from "../../content/ContactContent.json";
-import CouponBlock from "../../components/CouponBlock";
-import { useLocation } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
+import LeftContainer from "../../components/CouponPage/LeftContainer";
+import RightContainer from "../../components/CouponPage/RightContainer/index";
+import { Company } from "../../components/CouponGrid/types"; // Tipo Company caso você já tenha definido
 
-const Contact = lazy(() => import("../../components/ContactForm"));
-const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
-const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
 const Coupon = () => {
   const location = useLocation();
-  const parametro = location.state;
+  const parametro = location.state as Company; // Company vem como parâmetro da rota
+  console.log("parametro:", parametro);
+
   return (
     <Container>
       <ScrollToTop />
-      // Adicionar coupon aqui e liberação do cashback
+
+      <LeftContainer 
+              coupons={parametro.coupons}
+              logo={parametro.logo}
+              companyName= {parametro.companyName}
+              lastUpdate={parametro.lastUpdate}  />
+
+      <RightContainer 
+        cashbackInfo={{
+          percentage: parametro.cashbackPercentage,
+          message: "Ative seu cashback para economizar nas compras!",
+        }}
+        companyInfo={{
+          discountCount: parametro.discountCount,
+          offerCount: parametro.offerCount,
+          totalDiscount: parametro.totalDiscount,
+          bestDiscount: parametro.bestDiscount,
+        }}
+      />
     </Container>
   );
-}
+};
+
 export default Coupon;

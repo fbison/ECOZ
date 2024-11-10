@@ -1,0 +1,10 @@
+.leftContainer {
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.couponContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

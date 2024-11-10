@@ -3,20 +3,20 @@ import React from "react";
 import styled from "styled-components";
 import CouponCard from "../CouponCard";
 import { GridContainer } from "./styles";
-import { Coupon, CouponGridProps } from "./types";
+import { Company, CompanyGridProps } from "./types";
 import routes from "../../router/config";
 import { useHistory } from 'react-router-dom';
 
-const CouponGrid: React.FC<CouponGridProps> = ({ coupons }) => {
+const CouponGrid: React.FC<CompanyGridProps> = ({ companies }) => {
   const history = useHistory();
 
-  const handleNavigation = (coupon: Coupon) => {
+  const handleNavigation = (coupon: Company) => {
     history.push('/coupon', { state: { coupon } }); // Navegação com o objeto coupon
   };
 
   return (
     <GridContainer>
-      {coupons.map((coupon, index) => (
+      {companies.map((coupon, index) => (
         <CouponCard
           onClick={() => handleNavigation(coupon)}
           key={index}
