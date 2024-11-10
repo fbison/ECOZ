@@ -1,4 +1,5 @@
 export interface CouponCardProps {
+  onClick: () => void;  
   image: string;
   imageAlt: string;
   caption: string;

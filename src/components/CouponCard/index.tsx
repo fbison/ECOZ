@@ -13,13 +13,14 @@ import {
 } from "./types";
 
 const CouponCard: React.FC<CouponCardProps> = ({
+  onClick,
   image,
   imageAlt,
   caption,
   title,
   subtitle,
 }) => (
-  <CardContainer>
+  <CardContainer onClick={onClick}>
     <CardImage src={image} alt={imageAlt} />
     <CardCaption>{caption}</CardCaption>
     <CardTitle>{title}</CardTitle>
