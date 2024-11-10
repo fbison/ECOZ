@@ -42,7 +42,7 @@ const coupons: Company[] = [
     bestDiscount: 10
   },
   {
-    image: "/img/logos/Patagonia_logo.svg",
+    image: "/img/logos/Patagonia-Logo.png",
     imageAlt: "Logo Patagonia",
     caption: "Patagonia",
     title: "10% cashback",
@@ -65,9 +65,9 @@ const coupons: Company[] = [
     bestDiscount: 15
   },
   {
-    image: "/img/logos/Ikea_logo.svg",
-    imageAlt: "Logo Ikea",
-    caption: "Ikea",
+    image: "/img/logos/principia_logo.jpeg",
+    imageAlt: "Logo Principia",
+    caption: "Principia",
     title: "até 7% cashback",
     subtitle: "era 3% • 20 cupons",
     coupons: [
@@ -180,9 +180,9 @@ const coupons: Company[] = [
     bestDiscount: 15
   },
   {
-    image: "/img/logos/Method_logo.svg",
-    imageAlt: "Logo Method",
-    caption: "Method",
+    image: "/img/logos/boticario_logo.png",
+    imageAlt: "Logo Boticario",
+    caption: "Boticario",
     title: "6% cashback",
     subtitle: "era 3% • 9 cupons",
     coupons: [
@@ -203,7 +203,7 @@ const coupons: Company[] = [
     bestDiscount: 12
   },
   {
-    image: "/img/logos/Allbirds_logo.svg",
+    image: "/img/logos/allbirds_logo.webp",
     imageAlt: "Logo Allbirds",
     caption: "Allbirds",
     title: "7% cashback",
