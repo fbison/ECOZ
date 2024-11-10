@@ -11,7 +11,7 @@ const CouponGrid: React.FC<CompanyGridProps> = ({ companies }) => {
   const history = useHistory();
 
   const handleNavigation = (coupon: Company) => {
-    history.push('/coupon', { state: { coupon } }); // Navegação com o objeto coupon
+    history.push('/coupon',  coupon ); // Navegação com o objeto coupon
   };
 
   return (

@@ -5,7 +5,7 @@ const routes = [
     component: "Home",
   },
   {
-    path: ["/", "/Coupons"],
+    path: ["/", "/coupon"],
     exact: true,
     component: "Coupon",
   },
