@@ -19,7 +19,7 @@ import CouponGrid from "../CouponGrid/index";
 import { Company } from "../CouponGrid/types";
 const coupons: Company[] = [
   {
-    image: "/img/logos/Seventh_Generation_logo.svg",
+    image: "/img/logos/seventh_generation_logo.jpg",
     imageAlt: "Logo Seventh Generation",
     caption: "Seventh Generation",
     title: "6% cashback",
@@ -32,7 +32,7 @@ const coupons: Company[] = [
         code: "7GEN6"
       }
     ],
-    logo: "/img/logos/Seventh_Generation_logo.svg",
+    logo: "/img/logos/seventh_generation_logo.jpg",
     companyName: "Seventh Generation",
     lastUpdate: "2024-11-10",
     cashbackPercentage: 6,
@@ -55,7 +55,7 @@ const coupons: Company[] = [
         code: "PATAGONIA10"
       }
     ],
-    logo: "/img/logos/Patagonia_logo.svg",
+    logo: "/img/logos/Patagonia_logo.png",
     companyName: "Patagonia",
     lastUpdate: "2024-11-10",
     cashbackPercentage: 10,
@@ -88,7 +88,7 @@ const coupons: Company[] = [
     bestDiscount: 20
   },
   {
-    image: "/img/logos/Unilever_logo.svg",
+    image: "/img/logos/unilever_logo.png",
     imageAlt: "Logo Unilever",
     caption: "Unilever",
     title: "4% cashback",
@@ -101,7 +101,7 @@ const coupons: Company[] = [
         code: "UNILEVER4"
       }
     ],
-    logo: "/img/logos/Unilever_logo.svg",
+    logo: "/img/logos/unilever_logo.png",
     companyName: "Unilever",
     lastUpdate: "2024-11-10",
     cashbackPercentage: 4,
@@ -111,7 +111,7 @@ const coupons: Company[] = [
     bestDiscount: 10
   },
   {
-    image: "/img/logos/Tesla_logo.svg",
+    image: "/img/logos/tesla_logo.jpg",
     imageAlt: "Logo Tesla",
     caption: "Tesla",
     title: "2% cashback",
@@ -124,7 +124,7 @@ const coupons: Company[] = [
         code: "TESLA2"
       }
     ],
-    logo: "/img/logos/Tesla_logo.svg",
+    logo: "/img/logos/tesla_logo.jpg",
     companyName: "Tesla",
     lastUpdate: "2024-11-10",
     cashbackPercentage: 2,
@@ -134,30 +134,7 @@ const coupons: Company[] = [
     bestDiscount: 5
   },
   {
-    image: "/img/logos/Apple_logo.svg",
-    imageAlt: "Logo Apple",
-    caption: "Apple",
-    title: "5% cashback",
-    subtitle: "era 2% • 25 cupons",
-    coupons: [
-      {
-        discount: 5,
-        title: "5% de desconto",
-        subtitle: "Em produtos selecionados",
-        code: "APPLE5"
-      }
-    ],
-    logo: "/img/logos/Apple_logo.svg",
-    companyName: "Apple",
-    lastUpdate: "2024-11-10",
-    cashbackPercentage: 5,
-    discountCount: 4,
-    offerCount: 25,
-    totalDiscount: 50,
-    bestDiscount: 20
-  },
-  {
-    image: "/img/logos/Natura_logo.svg",
+    image: "/img/logos/natura_logo.png",
     imageAlt: "Logo Natura",
     caption: "Natura",
     title: "8% cashback",
@@ -170,7 +147,7 @@ const coupons: Company[] = [
         code: "NATURA8"
       }
     ],
-    logo: "/img/logos/Natura_logo.svg",
+    logo: "/img/logos/natura_logo.png",
     companyName: "Natura",
     lastUpdate: "2024-11-10",
     cashbackPercentage: 8,
@@ -226,7 +203,7 @@ const coupons: Company[] = [
     bestDiscount: 10
   },
   {
-    image: "/img/logos/Danone_logo.svg",
+    image: "/img/logos/danone_logo.png",
     imageAlt: "Logo Danone",
     caption: "Danone",
     title: "3% cashback",
@@ -239,7 +216,7 @@ const coupons: Company[] = [
         code: "DANONE3"
       }
     ],
-    logo: "/img/logos/Danone_logo.svg",
+    logo: "/img/logos/danone_logo.png",
     companyName: "Danone",
     lastUpdate: "2024-11-10",
     cashbackPercentage: 3,
@@ -249,7 +226,7 @@ const coupons: Company[] = [
     bestDiscount: 5
   },
   {
-    image: "/img/logos/Insider_logo.svg",
+    image: "/img/logos/insider_logo.webp",
     imageAlt: "Logo Insider",
     caption: "Insider",
     title: "10% cashback",
@@ -262,7 +239,7 @@ const coupons: Company[] = [
         code: "INSIDER10"
       }
     ],
-    logo: "/img/logos/Insider_logo.svg",
+    logo: "/img/logos/insider_logo.webp",
     companyName: "Insider",
     lastUpdate: "2024-11-10",
     cashbackPercentage: 10,
