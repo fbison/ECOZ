@@ -1,13 +1,9 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Back to nature, back to you.",
+  "text": "Cupom de desconto e cashback em milhares de produtos sustentáveis. Você dá pra natureza, ela te devolve.",
   "button": [
     {
       "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
     }
   ]
 }
