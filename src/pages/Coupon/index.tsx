@@ -23,4 +23,5 @@ const Coupon = () => {
       // Adicionar coupon aqui e liberação do cashback
     </Container>
   );
-};
+}
+export default Coupon;
