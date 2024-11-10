@@ -19,7 +19,7 @@ import CouponGrid from "../CouponGrid";
 
 const coupons = [
   {
-    image: "/img/logos/Patagonia_logo.svg",
+    image: "/img/logos/Patagonia_Logo.png",
     imageAlt: "Logo Patagonia",
     caption: "Patagonia",
     title: "10% cashback",
@@ -33,35 +33,35 @@ const coupons = [
     subtitle: "era 3% • 20 cupons",
   },
   {
-    image: "/img/logos/Unilever_logo.svg",
+    image: "/img/logos/unilever_logo.png",
     imageAlt: "Logo Unilever",
     caption: "Unilever",
     title: "4% cashback",
     subtitle: "era 2% • 15 cupons",
   },
   {
-    image: "/img/logos/Seventh_Generation_logo.svg",
+    image: "/img/logos/seventh_generation_logo.jpg",
     imageAlt: "Logo Seventh Generation",
     caption: "Seventh Generation",
     title: "6% cashback",
     subtitle: "era 3% • 8 cupons",
   },
   {
-    image: "/img/logos/Tesla_logo.svg",
+    image: "/img/logos/tesla_logo.jpg",
     imageAlt: "Logo Tesla",
     caption: "Tesla",
     title: "2% cashback",
     subtitle: "era 1% • 5 cupons",
   },
   {
-    image: "/img/logos/Apple_logo.svg",
+    image: "/img/logos/apple_logo.svg",
     imageAlt: "Logo Apple",
     caption: "Apple",
     title: "5% cashback",
     subtitle: "era 2% • 25 cupons",
   },
   {
-    image: "/img/logos/Natura_logo.svg",
+    image: "/img/logos/natura_logo.png",
     imageAlt: "Logo Natura",
     caption: "Natura",
     title: "8% cashback",
@@ -82,14 +82,14 @@ const coupons = [
     subtitle: "era 3% • 14 cupons",
   },
   {
-    image: "/img/logos/Danone_logo.svg",
+    image: "/img/logos/danone_logo.png",
     imageAlt: "Logo Danone",
     caption: "Danone",
     title: "3% cashback",
     subtitle: "era 1% • 18 cupons",
   },
   {
-    image: "/img/logos/Insider_logo.svg",
+    image: "/img/logos/insider_logo.webp",
     imageAlt: "Logo Insider",
     caption: "Insider",
     title: "10% cashback",
